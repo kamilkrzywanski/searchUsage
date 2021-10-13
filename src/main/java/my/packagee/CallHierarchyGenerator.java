@@ -1,4 +1,4 @@
-
+package my.packagee;
 
 import java.util.HashSet;
 
@@ -67,6 +67,14 @@ public class CallHierarchyGenerator {
             return null;
         }
 
+        Main.getAll("addasdsa");
+
         return theMethod;
+    }
+
+    public static void getAll(){
+
+        Main.getAll("addasdsa");
+        Main.getAll("aasdddasdsa");
     }
 }
